@@ -1,0 +1,13 @@
+#AboutUs {
+  float: right;
+  width: 400px;
+  margin-right: 13px;
+}
+body{
+  background-color: #ede1d1;
+}
+.info{
+  margin-top: 40px;
+  color: #484244;
+}
+
