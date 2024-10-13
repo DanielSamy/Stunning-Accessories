@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Out</title>
+    <link rel="icon" type="image/x-icon" href="1000_F_237311451_6c4uV0dn8YI4LwC8dw0uecPZSlkPy9Qu.jpg">
+    <style>
+        body{
+        }
+        #one{
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+        #two{
+            height: 200px;
+            width: 350px;
+            margin-top: 50px;
+            margin-left: 450px;
+        }
+        p{
+            text-align: center;
+        }
+        .price{
+            font-weight: bolder;
+        }
+        #visa{
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+            float: right;
+        }
+        form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+        #submit{
+             margin-left: 220px;
+             margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img id="one" src="thankyou.jpeg">
+    <img id="two" src="394595608_867735305048379_5462325863715875974_n.jpg">
+    <div>
+        <p>Thank you for shopping with us. We hope you didn't have any trouble throghout the process.<br>
+            Your total is 4 bracelets for <span class="price">680 L.E.</span>
+        </p>
+    </div>
+    
+     <form id="survey-form" method="post" action= "https://survey-form.stunning-acessories.rocks">
+         <fieldset id="three">
+         <span id="thank"><label id="name-label"  for="name">Card Name <input placeholder="Enter your name"id="name" name="name" type="text" required /></label><br>
+      <label id="card-number" for="card"> Card Number <input placeholder="Enter your card Number " id="num" max="15" name="card" type="number" required /></label><br>
+      <label id="number-label" for="cvv">Cvv (The last 3 number on the back of the card) <input placeholder="Cvv" id="Cv" max="3"  name="cvv" type="text" /></label>
+        <img src="visa.png" id="visa">
+             
+    </fieldset>
+         <input id="submit" type="submit" value="Submit" />
+    
+    </form>
+    </body></html>
