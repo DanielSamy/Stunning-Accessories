@@ -1,0 +1,45 @@
+body{
+    background-color:antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+.title{
+    background-color: #4e221c;
+    color: white;
+    font-weight:600;
+    text-align:center;
+    font-size: 40px;
+    padding: 30px;
+}
+.thead{
+    background-color: #592720;
+    color: white;
+    font-weight:600;
+    font-size: 24px;
+    padding:12px;
+
+}
+td{
+    text-align: center;
+}
+#click{
+    width: 10%;
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin: 10px 0 0 20px ;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid snow;
+    cursor: pointer;
+}
+#click:hover{
+    background-color: burlywood;
+}
