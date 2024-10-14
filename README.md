@@ -748,8 +748,6 @@ Enhances the visual appearance of the website.
 
 ## Screenshots
 
-*(Please add actual screenshots in the `screenshots/` directory and reference them here.)*
-
 - **Home Page**:
 
   ![Home Page](screenshots/homepage.png)
