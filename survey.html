@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>https://survey-form.stunning-acessories.rocks</title>
+    <link rel=stylesheet href="survey.css">
+    <link rel="icon" type="image/x-icon" href="survey%20logo.png">
+  </head>
+  <body>
+    <h1 id="title">Stunning Accessories By Hend</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" method="post" action= "https://survey-form.stunning-acessories.rocks">
+    <fieldset>
+      <label id="name-label"  for="name">Name <input placeholder="Enter your name"id="name" name="name" type="text" required /></label>
+      <label id="email-label" for="email"> Email <input placeholder="Enter your Email" id="email" name="email" type="email" required /></label>
+      <label id="number-label" for="age">Age(optional) <input placeholder="Age" id="number" min="13" max="100"  name="age" type="number" /></label>
+      <label >How did you know us? <input placeholder="Social Media, Friend or other?"id="describe" name="describe" type="text" required /></label>
+    </fieldset>
+    <fieldset> Would you recommend Stunning Acessories by Hend to a friend?
+      <label for="opt"><input id="opt" type="radio" value="opt" name="opt" class="inline" /> Definetly</label>
+      <label for="opt"><input value="opt" id="opt" type="radio" name="opt" class="inline" /> Maybe</label>
+      <label for="opt"><input value="opt" id="opt" type="radio" name="opt" class="inline" /> Not sure</label>
+    </fieldset>
+    <fieldset>
+      <label for="referrer">What is your favorite feature of Stunning Accessories by Hend?
+          <select dropdown id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Delivery Time</option>
+            <option value="2">Quality</option>
+            <option value="3">Variety</option>
+            <option value="4">Price</option>
+          </select>
+        </label>
+        </fieldset>
+        <fieldset>What would you like to see improved? (Check all that apply)
+        <label for="terms">Delivery Time
+          <input id="terms" value="choice" type="checkbox" required name="terms" class="inline" /> 
+        </label>
+        <label for="terms">Quality
+          <input value="choice" id="terms" type="checkbox" required name="terms" class="inline" /> 
+        </label>
+        <label for="terms">Variety
+          <input value="choice" id="terms" type="checkbox" required name="terms" class="inline" /> 
+        </label>
+        <label for="terms">Price
+          <input value="choice" id="terms" type="checkbox" required name="terms" class="inline" /> 
+        </label>
+        <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </label>
+      </fieldset>
+       <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+
+
