@@ -1,4 +1,3 @@
-```markdown
 # E-commerce Stunning Accessories Store Project
 
 ## Table of Contents
