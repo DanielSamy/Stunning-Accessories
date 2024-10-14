@@ -137,7 +137,7 @@ if (isset($_POST['logout'])) {
                     <img src="images/<?php echo $data['image']; ?>" height="150px" width="150px" class="Product"><br><br>
                     <?php echo $data['description']; ?></p> <br>
                     <p><span class="Price">Price: <?php echo $data['price']; ?></span><br>
-                    <a href="login.php"><img src="Add to cart.png"></a>
+                    <a href="check.html"><img src="Add to cart.png"></a>
                 </td>
             <?php } ?>
         <?php } else { ?>
